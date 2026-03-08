@@ -1,84 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kurt Haciñas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kurt Haciñas</title>
+
+<style>
+/* Basic reset and body styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f4; }
+
+/* Header styles */
+header { background: #333; color: #fff; padding: 2rem 1rem; text-align: center; position: relative; }
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Notice banner */
+.notice {
+    background: #ffcc00;
+    color: #333;
+    padding: 0.7rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Section styles */
+section { padding: 3rem 2rem; max-width: 800px; margin: 0 auto; text-align: center; }
+
+h2 { margin-bottom: 1rem; color: #333; }
+
+/* Work in progress box */
+.progress-box {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer { text-align: center; padding: 1rem; background: #333; color: #fff; margin-top: 2rem; }
+</style>
+
 </head>
+
 <body>
-    <style>
-        /* Basic reset and body styles */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f4; }
-        
-        /* Header styles */
-        header { background: #333; color: #fff; padding: 1rem; text-align: center; position: relative; }
-        nav { display: flex; justify-content: center; margin-top: 1rem; }
-        nav a { color: #fff; text-decoration: none; margin: 0 1rem; }
-        .menu-toggle { display: none; position: absolute; top: 1rem; right: 1rem; background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer; }
-        
-        /* Section styles */
-        section { padding: 2rem; max-width: 800px; margin: 0 auto; }
-        h2 { margin-bottom: 1rem; color: #333; }
-        .project { margin-bottom: 1rem; padding: 1rem; background: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        
-        /* Footer */
-        footer { text-align: center; padding: 1rem; background: #333; color: #fff; }
-        
-        /* Mobile responsiveness */
-        @media (max-width: 768px) {
-            nav { display: none; flex-direction: column; }
-            nav.active { display: flex; }
-            .menu-toggle { display: block; }
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Kurt Andrei C. Haciñas</h1>
-        <p>Web Developer | Designer</p>
-        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-        <nav id="nav-menu">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm Kurt. I'm a developer with a passion for programming and design.</p>
-    </section>
+<div class="notice">
+🚧 This portfolio website is currently under development. Stay tuned for updates!
+</div>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of project 1. <a href="#">Link to project</a></p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2. <a href="#">Link to project</a></p>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
+<header>
+<h1>Kurt Andrei C. Haciñas</h1>
+<p>Web Developer | Building my portfolio website from scratch</p>
+</header>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <p>LinkedIn: <a href="#">Your LinkedIn</a></p>
-        <p>GitHub: <a href="#">Your GitHub</a></p>
-    </section>
+<section>
 
-    <footer>
-        <p>&copy; 2023 My Name. All rights reserved.</p>
-    </footer>
+<h2>Work In Progress</h2>
 
-    <script>
-        function toggleMenu() {
-            const nav = document.getElementById('nav-menu');
-            nav.classList.toggle('active');
-        }
-    </script>
+<div class="progress-box">
+<p>
+This website is currently being developed by me as a personal portfolio project.
+</p>
+
+<p>
+More content, projects, and features will be added soon. Stay tuned!
+</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Kurt Andrei C. Haciñas</p>
+</footer>
+
 </body>
 </html>

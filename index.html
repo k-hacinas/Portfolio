@@ -6,74 +6,106 @@
 <title>Kurt Haciñas</title>
 
 <style>
-/* Basic reset and body styles */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f4; }
 
-/* Header styles */
-header { background: #333; color: #fff; padding: 2rem 1rem; text-align: center; position: relative; }
-
-header p {
-    margin-top: 0.5rem;
-    font-size: 1.1rem;
-    opacity: 0.9;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-/* Notice banner */
-.notice {
-    background: #ffcc00;
-    color: #333;
-    padding: 0.7rem;
-    text-align: center;
-    font-weight: bold;
+body{
+font-family: "Segoe UI", Arial, sans-serif;
+background:#f5f7fa;
+color:#333;
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
 }
 
-/* Section styles */
-section { padding: 3rem 2rem; max-width: 800px; margin: 0 auto; text-align: center; }
-
-h2 { margin-bottom: 1rem; color: #333; }
-
-/* Work in progress box */
-.progress-box {
-    margin-top: 1.5rem;
-    padding: 1.5rem;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.container{
+background:white;
+padding:3rem 2.5rem;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+text-align:center;
+max-width:500px;
+width:90%;
 }
 
-/* Footer */
-footer { text-align: center; padding: 1rem; background: #333; color: #fff; margin-top: 2rem; }
+h1{
+font-size:1.8rem;
+margin-bottom:0.5rem;
+}
+
+.subtitle{
+color:#666;
+margin-bottom:1.5rem;
+}
+
+.status{
+font-weight:600;
+margin-bottom:1rem;
+color:#222;
+}
+
+.message{
+color:#555;
+line-height:1.6;
+margin-bottom:1.8rem;
+}
+
+.divider{
+height:1px;
+background:#e5e5e5;
+margin:1.5rem 0;
+}
+
+.links a{
+text-decoration:none;
+margin:0 10px;
+color:#0077cc;
+font-weight:500;
+}
+
+.links a:hover{
+text-decoration:underline;
+}
+
+footer{
+margin-top:1.5rem;
+font-size:0.9rem;
+color:#888;
+}
+
 </style>
-
 </head>
 
 <body>
 
-<div class="notice">
-🚧 This portfolio website is currently under development. Stay tuned for updates!
-</div>
+<div class="container">
 
-<header>
 <h1>Kurt Andrei C. Haciñas</h1>
-<p>Web Developer | Building my portfolio website from scratch</p>
-</header>
+<p class="subtitle">Web Developer</p>
 
-<section>
+<p class="status">🚧 Portfolio Website in Development</p>
 
-<h2>Work In Progress</h2>
-
-<div class="progress-box">
-<p>
-This website is currently being developed by me as a personal portfolio project.
+<p class="message">
+My full portfolio website is currently being built from scratch.
+I'm working on showcasing my projects, experience, and work soon.
 </p>
 
-<p>
-More content, projects, and features will be added soon. Stay tuned!
-</p>
+<p><span class="status">Email:</span> kurthacinas@gmail.com</p>
+
+<div class="divider"></div>
+
+<div class="links">
+<a href="https://github.com/k-hacinas">GitHub</a>
+<a href="https://www.linkedin.com/in/kurt-andrei-haci%C3%B1as-2727a624a/">LinkedIn</a>
+<br>
 </div>
 
-</section>
+</div>
 
 </body>
 </html>
